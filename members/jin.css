@@ -1,3 +1,8 @@
+.help_text {
+    font-size: 12px;
+    color: #777;
+}
+
 .title {
     margin: 50px 0;
 }
@@ -46,15 +51,16 @@
     font-weight: 500;
 }
 
-.introduce {
-    padding: 50px 0;
+.introduce,
+.playlist {
+    padding-bottom: 50px;
 }
 
 .introduce__title {
     margin-bottom: 20px;
 }
 
-.introduce .help_text {
-    font-size: 12px;
+.playlist__artist {
+    font-size: 14px;
     color: #777;
 }
