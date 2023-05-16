@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular', serif;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.title {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.title__membername {
+    font-family: 'PyeongChangPeace-Bold', serif;
+    font-size: 28px;
+    float: left;
+}
+
+.title__teamname {
+    font-size: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+.profile__img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20vh;
+}
