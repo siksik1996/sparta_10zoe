@@ -32,6 +32,18 @@
 .profile-desc {
     width: 60%;
     padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-desc__item {
+    margin-bottom: 80px;
+}
+
+.profile-desc__title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .introduce {
