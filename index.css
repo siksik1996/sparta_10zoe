@@ -2,9 +2,19 @@ a {
     text-decoration: none;
     color: rgb(33, 37, 41);
 }
+
+.main-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .members {
     display: flex;
 }
+
 .members .card {
     width: 300px;
 }

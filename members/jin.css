@@ -23,6 +23,7 @@
 
 .profile {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .profile__img {
