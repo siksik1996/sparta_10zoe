@@ -26,6 +26,7 @@
 body {
     width:80%;
     margin: 0 auto;
+    background-color: #E3F2C1;
 }
 
 a {
@@ -35,8 +36,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
-    color:rgb(0, 255, 26)
+    color: palevioletred
 }
 
 /* 헤더 */
@@ -48,7 +48,7 @@ a:hover {
 
 .header__title {
     font-family: RixYeoljeongdo_Regular, serif;
-    color: rgb(0, 255, 26);
+    color: black;
     margin-right: 50px;
 
     font-size: 70px;
