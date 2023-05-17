@@ -1,4 +1,4 @@
-// chatGPT가 작성해 준 코드입니다 하하하
+// chatGPT가 작성해 준 코드를 이용하였습니다.
 
 document.addEventListener('DOMContentLoaded', () => {
     const slides = document.querySelector('.slides');
