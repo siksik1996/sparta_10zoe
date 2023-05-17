@@ -28,6 +28,7 @@ li {
 
 h1 {
     font-size: 60px;
+    color: rgb(0, 255, 26);
 }
 
 h3 {
@@ -35,13 +36,26 @@ h3 {
     font-size: 25px;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  transition: color 0.3s ease-in-out;
+}
 
+a:hover {
+  text-decoration: underline;
+  color:rgb(0, 255, 26)
+}
+
+
+/* 헤더 네비게이션 */
+.header__nav {
+  margin-top: 50px;
+}
 
 /* 헤더 타이틀 */
-
 .title {
     margin: 10px auto;
-    margin-top: 70px;
 
     padding-bottom: 20px;
 
@@ -59,7 +73,6 @@ h3 {
 
 
 /* 자기소개 부분 */
-
 .profile {
     display: flex;
     flex-direction: row;
@@ -80,7 +93,6 @@ width: 350px;
 
 
 /* 플레이리스트 */
-
 .slider-container {
     width: 500px;
     height: 500px;
@@ -139,7 +151,6 @@ width: 350px;
 
 
 /* 버킷리스트 */
-  
 .accordion__title, .playlist__title {
     margin-left: 20px;
 }
@@ -153,14 +164,9 @@ width: 350px;
 
 
 /* 푸터 */
-
 .footer {
     border-top: 1px solid rgba(0,0,0,0.2);
 
     padding-top: 20px;
     margin-bottom: 50px;
-}
-
-.footer__nav {
-    margin-bottom: 10px;
 }
