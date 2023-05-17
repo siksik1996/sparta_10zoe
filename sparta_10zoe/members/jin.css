@@ -1,0 +1,67 @@
+.help_text {
+    font-size: 12px;
+    color: #777;
+}
+
+.title {
+    margin: 50px 0;
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.title__desc {
+    font-size: 12px;
+    color: #777;
+}
+
+.title__team {
+    font-size: 12px;
+    color: #777
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.profile__img {
+    width: 40%;
+}
+
+.profile__img > img {
+    width: 100%;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.profile-desc {
+    width: 60%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-desc__item {
+    margin-bottom: 80px;
+}
+
+.profile-desc__title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.introduce,
+.playlist {
+    padding-bottom: 50px;
+}
+
+.introduce__title {
+    margin-bottom: 20px;
+}
+
+.playlist__artist {
+    font-size: 14px;
+    color: #777;
+}
