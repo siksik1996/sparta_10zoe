@@ -2,7 +2,7 @@
     font-size: 16px;
 
     display: flex;
-    margin-top: 20px;
+    margin-top: 23px;
 }
 
 .user-link {
@@ -22,11 +22,12 @@
 
     display: flex;
     justify-content: right;
-    margin-right: 40px;
+
+    margin-top: 30px;
 }
 
 .menu>p {
-    margin-right: 4%;
+    margin-right: 3%;
 }
 
 .id {
@@ -39,10 +40,10 @@
 }
 
 .id-name {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
 
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .sns {
@@ -50,28 +51,49 @@
     align-items: center;
     justify-content: center;
 
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 .sns-github__img,
 .sns-notion__img {
     width: 40px;
     border-radius: 20%;
-    margin: 0px 10px 150px 10px;
+    margin: 0px 10px 180px 10px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.37);
 }
 
 .fav,
-.pl,
+.pl {
+    width: 600px;
+    margin: 0px auto 120px auto;
+}
+
 .bl {
     width: 600px;
-    margin: 0px auto 100px auto;
+    margin: 0px auto 260px auto;
 }
 
 .fav-title,
 .pl-title,
 .bl-title {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rose,
+.yerin,
+.olivia {
+    width: 150px;
+    margin: 10px 20px 0px 20px;
+}
+
+.yerin {
+    background-color: black;
 }
