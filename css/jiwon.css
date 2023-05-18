@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'MaplestoryOTFBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
@@ -14,21 +21,17 @@
 
 body {
     width: 80%;
-
     margin: 0 auto;
-
+    
     font-family: 'Pretendard-Regular', serif;
     line-height: 2;
+
+    background-color: #eeeeee;
 }
 
 li {
     list-style: none;
     margin-bottom: 20px;
-}
-
-h1 {
-    font-size: 60px;
-    color: rgb(0, 255, 26);
 }
 
 h3 {
@@ -38,13 +41,13 @@ h3 {
 
 a {
   text-decoration: none;
-  color: rgb(37, 37, 37);
+  color: #252525;
   transition: color 0.3s ease-in-out;
 }
 
 a:hover {
+  color:#264fd5;
   text-decoration: underline;
-  color:rgb(0, 255, 26)
 }
 
 
@@ -55,9 +58,7 @@ a:hover {
 
 /* 헤더 타이틀 */
 .title {
-    margin: 10px auto;
-
-    padding-bottom: 20px;
+    margin: 0 auto;
 
     display: flex;
     justify-content: space-between;
@@ -66,9 +67,38 @@ a:hover {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.title__membername {
-    font-family: 'PyeongChangPeace-Bold', serif;
-    font-size: 28px;
+.title__myname {
+  font-family: 'PyeongChangPeace-Bold', serif;
+  font-size: 60px;
+}
+
+/* 헤더 타이핑 */
+.title__typing {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  font-size: 2.2rem;
+  font-family: 'MaplestoryOTFBold';
+}
+
+.title__text {
+  font-size: 3rem;
+  margin-left: .6rem;
+
+  color: #264fd5;
+}
+
+.title__text::after {
+  content: '';
+  margin-left: .4rem;
+  border-right: 2px solid #000000;
+  animation: cursor .8s infinite steps(2);
+}
+
+@keyframes cursor {
+  from { border-right: 2px solid #f3f3f3; }
+  to { border-right: 2px solid #000000; }
 }
 
 
