@@ -73,9 +73,17 @@
       <!-- 음원차트 시작 -->
       <div class="leaderboard">
         <h3 class="leaderboard_title">
-          실시간 음원 순위<span class="real-time"></span>
+          실시간 음원 순위
           <img src="./images/musicnote.gif" class="musicnote_gif" />
         </h3>
+        <!-- <div class="leaderboard_title--realtime">
+          <span>현재 시각</span>
+          <span class="real-time"></span>
+        </div> -->
+        <div class="realtimeclock">
+          <span id="date"></span>
+          <span id="time"></span>
+        </div>
         <ol class="chart">
           <li class="chart-item">
             <div class="ranknum">1</div>
