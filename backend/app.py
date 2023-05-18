@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 
@@ -34,11 +34,30 @@ def crawl_musics():
         db.music.insert_one(doc)
 
 
-@app.route("/musics/", methods=["GET"])
+@app.route("/musics", methods=["GET"])
 def get_music_list():
     crawl_musics()
     all_music = list(db.music.find({},{'_id':False}))[:5]
     return jsonify(all_music)
+
+
+@app.route("/guestbook/comments", methods=["POST"])
+def guestbook_post():
+    name_receive = request.form['name_give']
+    comment_receive = request.form['comment_give']
+    doc = {
+        'name':name_receive,
+        'comment':comment_receive
+    }
+    db.fan.insert_one(doc)
+
+    return jsonify({'msg': 'save completed'})
+
+
+@app.route("/guestbook/comments", methods=["GET"])
+def guestbook_get():
+    comments = list(db.fan.find({},{'_id':False}))
+    return jsonify(comments)
 
 
 if __name__ == '__main__':
