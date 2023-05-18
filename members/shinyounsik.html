@@ -14,6 +14,11 @@
             font-family: 'Nanum Pen Script', cursive;
         }
 
+        .box {
+         display: grid;
+         place-content: center;
+        }
+
         .mytitle {
             font-size: 60px;
         }
@@ -29,7 +34,7 @@
             margin: 50px 150px 150px 150px;
         }
 
-      
+
 
         .photo {
             display: flex;
@@ -37,6 +42,7 @@
             align-items: left;
             justify-content: left;
         }
+
         .burkit {
             font-size: 80px;
         }
@@ -44,118 +50,71 @@
         .playlist {
             font-size: 80px;
         }
+
+        .card {
+            border: 5px solid white;
+            width: 1500px;
+            overflow: hidden;
+        }
     </style>
 
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
-    <div class="mybox">
-        <div class="card-container">
-            <h1= class="mytitle">신윤식</h1>
-                <p class="title">A반 10조 &lt;div&gt;아이들</p>
-                <hr width="2000">
+    <div class="box">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="mybox">
+            <div class="card-container">
+                <h1= class="mytitle">신윤식</h1>
+                    <p class="title">A반 10조 &lt;div&gt;아이들</p>
+                    <hr width="1500">
 
-                
+
                     <div class="photo">
                         <img src="younsik.jpg" alt="10조" width="800" height="800">
-
-                        <h1>#이러한 개발자가 되고싶습니다.<br>
-                            <br>
-                            포기하지않고 끝까지 부딪혀보는 개발자가 되고싶습니다.<br>
-                            이번에 팀프로젝트를 하면서 느꼈습니다.<br>
-                            포기하고싶은 순간이 꽤 일찍 찾아왔었습니다.
-                            공부가 안되었기에,미숙했기에 그런 고난이 일찍 찾아왔던 것 같습니다.
-                            그러나, 팀원들의 응원이 너무나 큰 힘이 되었습니다.
-                            그래서 느꼈던 점은 앞으로 개발자 일을 하게 된다면 에러와 끊임없는 싸움을 해야한다고
-                            알고 있습니다.
-                            결코 포기하지않고 팀원들과 소통하며 사용자들에게 필요한것을 제공하는 개발자가 되겠습니다.<br>
-                            <br>
-                            #바다를 수호하는 혹등고래 <br>
-                            <br>
-                            저는 어릴적부터 혹등고래를 좋아했습니다.
-                            그이유는 바다에서 가장 힘이세고 약자를 보호하며 인간과 친화적인 포유동물이기 때문입니다.
-                            앞으로 수료하기까지 약4개월동안 실력이 좋아진다면 뒤쳐지는 팀원들을 도와주는 그런 사람이 되고싶습니다.
-
+                        <div class="card">
+                            <h1>#이러한 개발자가 되고싶습니다.<br>
+                                <br>
+                                포기하지않고 끝까지 부딪혀보는 개발자가 되고싶습니다.<br>
+                                이번에 팀프로젝트를 하면서 느꼈습니다.
+                                포기하고싶은 순간이 꽤 일찍 찾아왔었습니다.
+                                공부가 안되었기에,미숙했기에 그런 고난이 일찍 찾아왔던 것 같습니다.
+                                그러나, 팀원들의 응원이 너무나 큰 힘이 되었습니다.
+                                그래서 느꼈던 점은 앞으로 개발자 일을 하게 된다면 에러와 끊임없는 싸움을 해야한다고
+                                알고 있습니다.
+                                결코 포기하지않고 팀원들과 소통하며 사용자들에게 필요한것을 제공하는 개발자가 되겠습니다.<br>
+                                <br>
+                                <br>
+                                <br>
+                                #바다를 수호하는 혹등고래 <br>
+                                <br>
+                                저는 어릴적부터 혹등고래를 좋아했습니다.
+                                그이유는 바다에서 가장 힘이세고 약자를 보호하며 인간과 친화적인 포유동물이기 때문입니다.
+                                앞으로 수료하기까지 약4개월동안 실력이 좋아진다면 뒤쳐지는 팀원들을 도와주는 그런 사람이 되고싶습니다.
+                        </div>
                         </h2>
                     </div>
-                
-        </div>
-        <br>
-        <br>
-        <h1 class="burkit">#버킷리스트</h1>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h1 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <h2>생활체육지도사 자격증따기</h2>
-                    </button>
-                </h1>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample">
-                    <h1 class="accordion-body">
-                        <h2>저의 취미중 하나는 웨이트 트레이닝 입니다.
-                            어릴때부터 왜소한 체격이 콤플렉스였고 그 콤플렉스를 이겨내기위해
-                            스스로 운동에 관련하여 공부를 하면서 흥미를 느꼈었습니다. 그래서 스스로 터득한 운동방법을
-                            지인분들께 알려주면서 보람찬 경험이 있어서 프리랜서 웨이트트레이너로써 활동을
-                            하고 싶습니다.
-                        </h2>
-                    </h1>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <h2>바디프로필 찍기</h2>
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <h2>누구나 한번쯤은 20대에 바디프로필 한장은 간직하고 싶었던 적이 있었을 겁니다.
-                            사진한장으로 동기부여를 얻고 자존감이 올라가고 자신감이 생기기에 30대가 되기전에 꼭
-                            찍고싶습니다.
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h1 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <h2>콘서트가기</h2>
-                    </button>
-                </h1>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <h2>
-                            저는 박효신 성시경을 너무 좋아하는 팬입니다. 재생목록에 각각 노래만 넣어놓고 반복재생을 할 정도로 즐겨 듣습니다.
-                            그러나 아직도 한번도 실제로 들어본적이 없는데요.. 꼭 올해나 내년쯤엔 콘서트에 가서 노래도 따라부르고 싶습니다.
 
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <h1 class="playlist">
             </div>
             <br>
             <br>
-            <h1 class="burkit">#플레이리스트</h1>
+            <h1 class="burkit">#버킷리스트</h1>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h1 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <h2>성시경 - 너의모든순간</h2>
+                            <h2>생활체육지도사 자격증따기</h2>
                         </button>
                     </h1>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <h1 class="accordion-body">
-                            <h2>요즘 무한재생중인 곡입니다 ㅎㅎ
+                            <h2>저의 취미중 하나는 웨이트 트레이닝 입니다.
+                                어릴때부터 왜소한 체격이 콤플렉스였고 그 콤플렉스를 이겨내기위해
+                                스스로 운동에 관련하여 공부를 하면서 벌크업을 하면서 흥미를 느꼈었습니다. 그래서 스스로 터득한 운동방법을
+                                지인분들께 알려주면서 보람찬 경험이 있어서 프리랜서 웨이트트레이너로써 활동을
+                                하고 싶습니다.
                             </h2>
                         </h1>
                     </div>
@@ -164,13 +123,15 @@
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h2>박효신 - 숨</h2>
+                            <h2>바디프로필 찍기</h2>
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <h2> 입대곡이며 박효신 노래중에 가장 좋아하는 곡 입니다.
+                            <h2>누구나 한번쯤은 20대에 바디프로필 한장은 간직하고 싶었던 적이 있었을 겁니다.
+                                사진한장으로 동기부여를 얻고 자존감이 올라가고 자신감이 생기기에 30대가 되기전에 꼭
+                                찍고싶습니다.
                             </h2>
                         </div>
                     </div>
@@ -179,10 +140,64 @@
                     <h1 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h2>나윤권 - 바람이 좋은날</h2>
+                            <h2>콘서트가기</h2>
                         </button>
                     </h1>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2>
+                                저는 박효신 성시경을 너무 좋아하는 팬입니다. 재생목록에 각각 노래만 넣어놓고 반복재생을 할 정도로 즐겨 듣습니다.
+                                그러나 아직도 한번도 실제로 들어본적이 없는데요.. 꼭 올해나 내년쯤엔 콘서트에 가서 노래도 따라부르고 싶습니다.
+
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="playlist">
+            </div>
+            <br>
+            <br>
+            <h1 class="burkit">#플레이리스트</h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h1 class="accordion-header" id="headingfour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                            <h2>성시경 - 너의모든순간</h2>
+                        </button>
+                    </h1>
+                    <div id="collapsefour" class="accordion-collapse collapse show" aria-labelledby="headingfour"
+                        data-bs-parent="#accordionExample">
+                        <h1 class="accordion-body">
+                            <h2>요즘 무한 반복중인 곡입니다 ㅎㅎ
+                            </h2>
+                        </h1>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingfive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                            <h2>박효신 - 숨</h2>
+                        </button>
+                    </h2>
+                    <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2> 입대곡이며 박효신 노래중에 가장 좋아하는 곡 입니다.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h1 class="accordion-header" id="headingsix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                            <h2>나윤권 - 바람이 좋은날</h2>
+                        </button>
+                    </h1>
+                    <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <h2>
@@ -191,9 +206,9 @@
                         </div>
                     </div>
                 </div>
-            </h1>
+                </h1>
+            </div>
         </div>
-
 
 
 
