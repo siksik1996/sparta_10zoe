@@ -1,4 +1,4 @@
-let baseUrl = 'http://0d86-59-13-68-52.ngrok-free.app';
+let baseUrl = 'https://0d86-59-13-68-52.ngrok-free.app';
 
 let titles = document.querySelectorAll('.song-title');
 let artists = document.querySelectorAll('.artist-name');
