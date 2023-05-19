@@ -1,99 +1,99 @@
 .user {
-    font-size: 16px;
+  font-size: 16px;
 
-    display: flex;
-    margin-top: 23px;
+  display: flex;
+  margin-top: 23px;
 }
 
 .user-link {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .user-link,
 .menu-favorite,
 .menu-play,
 .menu-bucket {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .menu {
-    font-size: 20px;
+  font-size: 20px;
 
-    display: flex;
-    justify-content: right;
+  display: flex;
+  justify-content: right;
 
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-.menu>p {
-    margin-right: 3%;
+.menu > p {
+  margin-right: 3%;
 }
 
 .id {
-    margin-top: 120px;
-    text-align: center;
+  margin-top: 120px;
+  text-align: center;
 }
 
-.id>img {
-    width: 120px;
+.id > img {
+  width: 120px;
 }
 
 .id-name {
-    font-size: 32px;
-    font-weight: bold;
+  font-size: 32px;
+  font-weight: bold;
 
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .sns {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .sns-github__img,
 .sns-notion__img {
-    width: 40px;
-    border-radius: 20%;
-    margin: 0px 10px 180px 10px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.37);
+  width: 40px;
+  border-radius: 20%;
+  margin: 0px 10px 180px 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.37);
 }
 
 .fav,
 .pl {
-    width: 600px;
-    margin: 0px auto 120px auto;
+  width: 600px;
+  margin: 0px auto 120px auto;
 }
 
 .bl {
-    width: 600px;
-    margin: 0px auto 260px auto;
+  width: 600px;
+  margin: 0px auto 260px auto;
 }
 
 .fav-title,
 .pl-title,
 .bl-title {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .artist {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .rose,
 .yerin,
 .olivia {
-    width: 150px;
-    margin: 10px 20px 0px 20px;
+  width: 150px;
+  margin: 10px 20px 0px 20px;
 }
 
 .yerin {
-    background-color: black;
+  background-color: black;
 }
